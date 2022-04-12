@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: #f1f1f1;
+    color: #0f141e;
+
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.cv-logo {
+    width: 300px;
+    border-radius: 50px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.info-about {
+    margin-left: 40px;
+}
+
+.info-about h4 {
+    margin-bottom: 10px;
+}
+
+.info p {
+    color: #86988f;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background: #fff9dc;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    color: #86988f;
+    margin-bottom: 10px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td:nth-child(2), .table td:nth-child(3) {
+    color: #86988f;
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #86988f;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.form-group textarea {
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form-group {
+    width: 25%;
+    margin-right: 20px;
+}
+
+.row > .form-group:last-child {
+    margin-right: 0;
+}
+
+.btn {
+    background: black;
+    padding: 15px 20px;
+    color: white;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.footer > div {
+    float: left;
+    background: red;
+    width: 25%;
+    height: 50px;
+    border: #000 1px solid;
+    box-sizing: border-box;
+}
+
+/* .footer {
+    display: flex;
+}
+
+.footer-block {
+    background: red;
+    width: 50%;
+    height: 50px;
+    border: #000 1px solid;
+} */
+
+/* .social {
+    background-color: green;
+    padding: 15px;
+    border: 1px solid red;
+} */
+
+@media (max-width:700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+
+    .row > .form-group {
+        width: 100%;
+    }
+
+/*     .footer {
+        display: block;
+    } 
+
+    .footer-block {
+        width: 50%;
+    } */
+    .footer > div {
+        width: 50%;
+    }
+}
